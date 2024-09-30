@@ -8,19 +8,16 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Load the dataset and preprocess it by converting categorical variables to numerical.
-2.Split the data into features (X) and target variable (y).
-3.Divide the dataset into training and testing sets.
-4.Train the Decision Tree Regressor on the training data.
-5.Predict the target values for the test data.
-6.Evaluate the model's performance using Mean Squared Error (MSE).
-7.Visualize the decision tree.  
+1.Split the dataset into features (X) and target (y), and preprocess the data.
+2.Split data into training and testing sets.
+3.Train the Decision Tree Classifier using the training data.
+4Predict and evaluate the model on the test data, then visualize the decision tre  
 
 ## Program:
 ```
 /*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
-Developed by:  Monishkumar.V
+Developed by:Monishkumar.V
 RegisterNumber:  212223040116
 */
 import pandas as pd
@@ -64,7 +61,7 @@ plt.show()
 ```
 
 ## Output:
-![Screenshot 2024-09-30 220849](https://github.com/user-attachments/assets/66d49e68-e0b0-4803-87fe-d30c98e95a68)
+![image](https://github.com/user-attachments/assets/567acd7c-1213-4c84-a66c-9097588efd5b)
 
 ## Result:
 Thus the program to implement the  Decision Tree Classifier Model for Predicting Employee Churn is written and verified using python programming.
